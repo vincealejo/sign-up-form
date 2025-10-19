@@ -105,7 +105,7 @@ label {
 input {
     width: 35ch;
     padding: 0.2rem 1rem;
-    border: 1px solid #333;
+    border: 2px solid #E5E7EB;
     border-radius: 5px;
 }
 
@@ -121,7 +121,7 @@ legend {
 button {
     border: none;
     padding: 0.7rem 4rem;
-    background-color: rgb(26, 89, 26);
+    background-color: #596D48;
     color: #fff;
     font-size: 16px;
     font-weight: 700;
@@ -129,3 +129,10 @@ button {
     margin-bottom: 12px;
 }
 
+input:invalid {
+    border: 2px solid #f56767;
+}
+
+input:valid {
+    border: 2px solid #67b3f5;
+}
